@@ -1,4 +1,4 @@
 discord.py
-astncio
+asyncio
 openyxl
 youtube_dl
