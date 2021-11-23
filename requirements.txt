@@ -1,2 +1,4 @@
 discord.py
 astncio
+openyxl
+youtube_dl
