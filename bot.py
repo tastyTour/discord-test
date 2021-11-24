@@ -1,9 +1,8 @@
+import os
 import discord
-from discord.ext import commands
-
+from discord.ext import commandsㅑ
 client = discord.Client()
 
-token = "OTEyNTIxNjY0OTU1MzE0MjE2.YZxKBg.IYNy7QU3vSbq7akYm5XPUydbbXY"
 
 bad = ["시발", "ㅅㅂ", "tlqkf", "느금"]
 
@@ -46,4 +45,5 @@ async def on_message(message):
         await message.channel.send(embed=embed)
 
 
-client.run(token)
+access_token = os.environ["BOT_TOKEN"]     
+client.run(access_token)
