@@ -3,7 +3,7 @@ from discord.ext import commands
 
 client = discord.Client()
 
-token = "OTEyNTIxNjY0OTU1MzE0MjE2.YZxKBg.Va-jCT5LmHjcRw4OJrNgsZZokrw"
+token = "OTEyNTIxNjY0OTU1MzE0MjE2.YZxKBg.IYNy7QU3vSbq7akYm5XPUydbbXY"
 
 bad = ["시발", "ㅅㅂ", "tlqkf", "느금"]
 
